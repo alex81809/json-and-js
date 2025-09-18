@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Callback Function</title>
+    </head>
+
+    <body>
+        <script>
+
+            function codingal(name, callback) {
+                console.log("hello " + name)
+                callback()
+            }
+
+            function greetings() {
+                console.log("Good bye everyone!")
+            }
+
+            codingal("Harry", greetings)
+        </script>
+    </body>
+</html>
